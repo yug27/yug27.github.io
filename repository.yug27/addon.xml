@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.yug27" name="Yug 27 Repository" version="2.0.1" provider-name="yug27">
+    <extension point="xbmc.addon.repository" name="Amit's Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://yug27.github.io/addons.xml</info>
+            <checksum>https://yug27.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://yug27.github.io/Zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Amit's Repository for Kodi</summary>
+        <description>A Repository for Streaming Add-ons of Indian OTT Providers</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <clearlogo>icon.png</clearlogo>
+        </assets>
+    </extension>
+</addon>

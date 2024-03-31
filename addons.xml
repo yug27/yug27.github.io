@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.jiotv" name="JioTV" version="2.3.9" provider-name="tobalan">
+    <addon id="plugin.video.jiotv" name="JioTV" version="2.3.9" provider-name="yug27">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.codequick" version="1.0.2" />
@@ -8,7 +8,7 @@
             <import addon="inputstream.adaptive" minversion="2.6.6" />
             <import addon="script.module.m3u8" version="0.5.4" />
             <import addon="script.module.requests" version="2.27.1" />
-            <import addon="repository.tobalan" version="2.0.1" />
+            <import addon="repository.yug27" version="2.0.1" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>video</provides>
@@ -21,9 +21,9 @@
             <platform>all</platform>
             <license>MIT</license>
             <forum>https://botallen.com/discord</forum>
-            <website>https://tobalan.github.io</website>
-            <email>kodi@botallen.com</email>
-            <source>https://github.com/tobalan/plugin.video.jiotv</source>
+            <website>https://yug27.github.io</website>
+            <email>yugzearn@gmail.com</email>
+            <source>https://github.com/yug27/plugin.video.jiotv</source>
             <news>
                 [- 2.3.9 -]
                 [added] Revamped settings.xml and added strings.po
@@ -100,17 +100,17 @@
             <reuselanguageinvoker>true</reuselanguageinvoker>
         </extension>
     </addon>
-    <addon id="repository.tobalan" name="TobAlan Addon Repository" version="2.0.1"
-        provider-name="tobalan">
-        <extension point="xbmc.addon.repository" name="TobAlan Addons Repository">
+    <addon id="repository.yug27" name="Amit's Addon Repository" version="2.0.1"
+        provider-name="yug27">
+        <extension point="xbmc.addon.repository" name="Amit's Addons Repository">
             <dir minversion="19.0">
-                <info compressed="false">https://tobalan.github.io/addons.xml</info>
-                <checksum>https://tobalan.github.io/addons.xml.md5</checksum>
-                <datadir zip="true">https://tobalan.github.io/Zips</datadir>
+                <info compressed="false">https://Amit's.github.io/addons.xml</info>
+                <checksum>https://yug27.github.io/addons.xml.md5</checksum>
+                <datadir zip="true">https://yug27.github.io/Zips</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>TobAlan Repository for Kodi</summary>
+            <summary>Amit's Repository for Kodi</summary>
             <description>A Repository for Streaming Add-ons of Indian OTT Providers</description>
             <platform>all</platform>
             <assets>
